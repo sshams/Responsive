@@ -1,0 +1,57 @@
+@charset "utf-8";
+/**
+*
+* @author Saad Shams :: sshams@live.com
+*
+* Copy, reuse is prohibited.
+* 
+*/
+#container {
+	width: 480px;
+}
+#container #mscape_01 {
+	float: left;
+	height: 200px;
+	width: 480px;
+	background:url(/view/templates/images/iphone_landscape/01.jpg);
+}
+#container #mscape_02 {
+	float: left;
+	height: 199px;
+	width: 480px;
+	background:url(/view/templates/images/iphone_landscape/02.jpg);
+}
+#container #mscape_03 {
+	float: left;
+	height: 264px;
+	width: 480px;
+	background:url(/view/templates/images/iphone_landscape/03.png);
+}
+#container #mscape_03 #text {
+	margin-left: 25px;
+	margin-top: 38px;
+	width: 380px;
+}
+#container #mscape_03 #text #second {
+	margin-top: 33px;
+}
+#sorry #container #mscape_01 {
+	background:url(/view/templates/images/iphone_landscape/sorry_01.jpg);
+}
+#sorry #container #mscape_02 {
+	height: 84px;
+	background:url(/MScape/view/templates/images/iphone_landscape/sorry.png);
+}
+#sorry #container #sorryCopy {
+	float: left;
+	height: 130px;
+	width: 390px;
+	margin-left: 15px;
+}
+.copy {
+	font-size: 19px;
+}
+#hw {
+	min-height: 32px;
+	background: #FFF url(/MScape/view/templates/images/iphone_landscape/hw.gif) no-repeat center center;
+}

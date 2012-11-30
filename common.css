@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+/**
+*
+* @author Saad Shams :: sshams@live.com
+*
+* Copy, reuse is prohibited.
+* 
+*/
+
+@font-face {
+    font-family: 'maybe_boldregular';
+    src: url('/view/templates/css/maybe-bold-webfont.eot');
+    src: url('/view/templates/css/maybe-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/view/templates/css/maybe-bold-webfont.woff') format('woff'),
+         url('/view/templates/css/maybe-bold-webfont.ttf') format('truetype'),
+         url('/view/templates/css/maybe-bold-webfont.svg#maybe_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #000;
+	color: #FFF;
+}
+#container {
+	margin: auto;
+	height: auto;
+	min-height: 100%;
+	/* [disabled]overflow-y: scroll; */
+}
+html#message {
+	height: 100%;
+}
+#message body {
+	height: 100%;	
+}
+#message #container.answered {
+	height: 100%;	
+	background:url(/view/templates/images/already.png) no-repeat center center;
+}
+#message #container.access_denied {
+	height: 100%;	
+	background:url(/view/templates/images/access_denied.png) no-repeat center center;
+}
+.copy {
+	color: #FFF;
+	font-family: maybe_boldregular, Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	line-height:120%;
+	text-transform:uppercase;
+}
+#hw {
+	height: 10%;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background: #FFF url(/view/templates/images/hw.gif) no-repeat center center;
+}

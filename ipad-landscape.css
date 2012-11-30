@@ -1,0 +1,58 @@
+@charset "utf-8";
+/**
+*
+* @author Saad Shams :: sshams@live.com
+*
+* Copy, reuse is prohibited.
+* 
+*/
+#container {
+	width: 1024px;
+}
+#container #mscape_01 {
+	float: left;
+	height: 350px;
+	width: 1024px;
+	background:url(/MScape/view/templates/images/ipad_landscape/01.jpg);
+}
+#container #mscape_02 {
+	float: left;
+	height: 217px;
+	width: 439px;
+	background:url(/MScape/view/templates/images/ipad_landscape/02.png);
+}
+#container #mscape_03 {
+	float: left;
+	height: 252px;
+	width: 585px;
+	background:url(/MScape/view/templates/images/ipad_landscape/03.jpg);
+}
+#container #mscape_03 #text {
+	margin-left: 32px;
+	margin-top: 110px;
+	width: 500px;
+}
+#container #mscape_03 #text #second {
+	display:inline;
+}
+#sorry #container #mscape_01 {
+	background:url(/MScape/view/templates/images/ipad_landscape/sorry_01.jpg);
+}
+#sorry #container #mscape_02 {
+	height: 84px;
+	width:634px;
+	background:url(/MScape/view/templates/images/ipad_landscape/sorry.png);
+}
+#sorry #container #sorryCopy {
+	float: left;
+	height: 130px;
+	width: 625px;
+	margin-left: 65px;
+	font-size: 17px;
+}
+.copy {
+	font-size: 15px;
+}
+#hw {
+	min-height: 77px;
+}
