@@ -1,11 +1,5 @@
 @charset "utf-8";
-/**
-*
-* @author Saad Shams :: sshams@live.com
-*
-* Copy, reuse is prohibited.
-* 
-*/
+
 #container {
 	width: 320px;
 }
@@ -13,19 +7,19 @@
 	float: left;
 	height: 133px;
 	width: 320px;
-	background:url(/view/templates/images/iphone_portrait/01.jpg);
+	background:url(../images/iphone_portrait/01.jpg);
 }
 #container #mscape_02 {
 	float: left;
 	height: 133px;
 	width: 320px;
-	background:url(/view/templates/images/iphone_portrait/02.jpg);
+	background:url(../images/iphone_portrait/02.jpg);
 }
 #container #mscape_03 {
 	float: left;
 	height: 176px;
 	width: 320px;
-	background:url(/view/templates/images/iphone_portrait/03.png);
+	background:url(../images/iphone_portrait/03.png);
 }
 #container #mscape_03 #text {
 	margin-top: 0px;
@@ -37,11 +31,11 @@
 	margin-top: 18px;
 }
 #sorry #container #mscape_01 {
-	background:url(/view/templates/images/iphone_portrait/sorry_01.jpg);
+	background:url(../images/iphone_portrait/sorry_01.jpg);
 }
 #sorry #container #mscape_02 {
 	height: 55px;
-	background:url(/view/templates/images/iphone_portrait/sorry.png);
+	background:url(../images/iphone_portrait/sorry.png);
 }
 #sorry #container #sorryCopy {
 	float: left;
@@ -55,5 +49,5 @@
 }
 #hw {
 	min-height: 48px;
-	background: #FFF url(/view/templates/images/iphone_portrait/hw.gif) no-repeat center center;
+	background: #FFF url(../images/iphone_portrait/hw.gif) no-repeat center center;
 }

@@ -1,11 +1,5 @@
 @charset "utf-8";
-/**
-*
-* @author Saad Shams :: sshams@live.com
-*
-* Copy, reuse is prohibited.
-* 
-*/
+
 #container {
 	width: 1024px;
 }
@@ -13,19 +7,19 @@
 	float: left;
 	height: 350px;
 	width: 1024px;
-	background:url(/MScape/view/templates/images/ipad_landscape/01.jpg);
+	background:url(../images/ipad_landscape/01.jpg);
 }
 #container #mscape_02 {
 	float: left;
 	height: 217px;
 	width: 439px;
-	background:url(/MScape/view/templates/images/ipad_landscape/02.png);
+	background:url(../images/ipad_landscape/02.png);
 }
 #container #mscape_03 {
 	float: left;
 	height: 252px;
 	width: 585px;
-	background:url(/MScape/view/templates/images/ipad_landscape/03.jpg);
+	background:url(../images/ipad_landscape/03.jpg);
 }
 #container #mscape_03 #text {
 	margin-left: 32px;
@@ -36,12 +30,12 @@
 	display:inline;
 }
 #sorry #container #mscape_01 {
-	background:url(/MScape/view/templates/images/ipad_landscape/sorry_01.jpg);
+	background:url(../images/ipad_landscape/sorry_01.jpg);
 }
 #sorry #container #mscape_02 {
 	height: 84px;
 	width:634px;
-	background:url(/MScape/view/templates/images/ipad_landscape/sorry.png);
+	background:url(../images/ipad_landscape/sorry.png);
 }
 #sorry #container #sorryCopy {
 	float: left;
